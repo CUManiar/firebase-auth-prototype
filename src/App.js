@@ -10,7 +10,7 @@ import { auth } from "./config/firebase";
 import { useStateValue } from "./contextProvider";
 
 function App() {
-  const [{}, dispatch] = useStateValue();
+  const [{ user }, dispatch] = useStateValue();
 
   useEffect(() => {
     // will only run once when the app component loads....
