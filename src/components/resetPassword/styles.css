@@ -1,0 +1,24 @@
+.reset {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5rem;
+}
+
+.reset__input {
+  height: 30px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 90%;
+}
+
+.reset__submit {
+  height: 2rem;
+  padding: 0 2rem;
+  border: 1px solid #4caf50;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: white;
+  font-weight: bold;
+}
